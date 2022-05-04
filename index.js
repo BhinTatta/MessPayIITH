@@ -48,9 +48,9 @@ const pay = (ev)=>{
 
 
     document.getElementById("secondpage").style.visibility = "visible";
-    document.getElementById("time").innerHTML="<h2>Paid successfully at <h2>"+hour+":"+minute+" "+half;
-    document.getElementById("date").innerHTML="<h2>on <h2>" + date +" "+ monthName + " " + year;
-    document.getElementById("rs").innerHTML="<h3>₹<h2>"+rupee;
+    document.getElementById("time1").innerHTML="Paid successfully at "+hour+":"+minute+" "+half;
+    document.getElementById("date1").innerHTML="on " + date +" "+ monthName + " " + year;
+    document.getElementById("rs1").innerHTML="₹"+rupee;
 }
 
 document.addEventListener('DOMContentLoaded', ()=>{
