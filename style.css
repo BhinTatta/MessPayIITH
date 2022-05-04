@@ -133,6 +133,7 @@
 
 
     #secondpage{
+        font-family: 'Montserrat', sans-serif;
         height: 100%;
         visibility: hidden;
         background-image: url("phonepay1.jpg");
@@ -143,10 +144,28 @@
         overflow: hidden;
     }
 
-    #time, #date{
-        font-size: small;
+    #time, #date , #rs{
+        font-weight: 400;
+        font-size: 11px;
+        color: white;
         width: 100%;
-        text-align: center;
         
+        
+    }
+    #time1 {
+        margin: 16vh auto 0;
+        text-align: center;
+    }
+
+    #date1{
+        margin: 1vh auto 0;
+        text-align: center;
+    }
+    
+    #rs1{
+        font-size: 23px;
+        color: black;
+        font-weight: 600;
+        margin: 19vh 0 0 29vw;
     }
   }
