@@ -91,7 +91,7 @@ const pay2 = (ev)=>{
     const year = d.getFullYear()
     const date = ('0' + d.getDate() ).slice(-2)
     const hour = ('0' + d.getHours() % 12 ).slice(-2)
-    const minute = d.getMinutes()
+    const minute =('0' + d.getMinutes() ).slice(-2)
     const rupee = payment['amount']
     console.log(monthName,year,date,hour,minute,rupee)
     let half = "pm";
